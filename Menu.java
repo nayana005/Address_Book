@@ -23,10 +23,14 @@ public class Menu {
 				addOrRemove.displayPerson();
 				break;
 
+			case 3:
+				addOrRemove.editPerson();
+				break;
+
 			default:
 				System.exit(0);
 				break;
 			}
 		}
 	}
-}
+}		
