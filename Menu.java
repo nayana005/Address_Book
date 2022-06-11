@@ -26,6 +26,10 @@ public class Menu {
 			case 3:
 				addOrRemove.editPerson();
 				break;
+				
+			case 4:
+                addOrRemove.removePerson();
+                break;
 
 			default:
 				System.exit(0);
