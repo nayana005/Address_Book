@@ -1,77 +1,93 @@
 package com.bl.addressBook;
 
 public class AddressBookDetails {
-    private String firstName;
-    private String lastName;
-    private String address;
-    private String city;
-    private String state;
-    private long phoneNumber;
-    private long zip;
-    private String emailAddress;
+	@Override
+	public String toString() {
+		return "DetailsAddressBook{" +
+				"firstName='" + firstName + '\'' +
+				", lastName='" + lastName + '\'' +
+				", address='" + address + '\'' +
+				", city='" + city + '\'' +
+				", state='" + state + '\'' +
+				", phoneNumber=" + phoneNumber +
+				", zip=" + zip +
+				", emailAddress='" + emailAddress + '\'' +
+				'}';
+	}
 
-    public String getFirstName() {
-        return firstName;
-    }
+	private String firstName;
+	private String lastName;
+	private String address;
+	private String city;
+	private String state;
+	private long phoneNumber;
+	private long zip;
+	private String emailAddress;
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+	public String getFirstName() {
+		return firstName;
+	}
 
-    public String getLastName() {
-        return lastName;
-    }
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+	public String getLastName() {
+		return lastName;
+	}
 
-    public String getAddress() {
-        return address;
-    }
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+	public String getAddress() {
+		return address;
+	}
 
-    public String getCity() {
-        return city;
-    }
+	public void setAddress(String address) {
+		this.address = address;
+	}
 
-    public void setCity(String city) {
-        this.city = city;
-    }
+	public String getCity() {
+		return city;
+	}
 
-    public String getState() {
-        return state;
-    }
+	public void setCity(String city) {
+		this.city = city;
+	}
 
-    public void setState(String state) {
-        this.state = state;
-    }
+	public String getState() {
+		return state;
+	}
 
-    public long getPhoneNumber() {
-        return phoneNumber;
-    }
+	public void setState(String state) {
+		this.state = state;
+	}
 
-    public void setPhoneNumber(long phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
+	public long getPhoneNumber() {
+		return phoneNumber;
+	}
 
-    public long getZip() {
-        return zip;
-    }
+	public void setPhoneNumber(long phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
 
-    public void setZip(long zip) {
-        this.zip = zip;
-    }
+	public long getZip() {
+		return zip;
+	}
 
-    public String getEmailAddress() {
-        return emailAddress;
-    }
+	public void setZip(long zip) {
+		this.zip = zip;
+	}
 
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
-    }
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
 
 }
+
+    
